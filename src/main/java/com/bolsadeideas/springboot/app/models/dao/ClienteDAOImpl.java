@@ -30,7 +30,7 @@ public class ClienteDAOImpl implements IClienteDAO {
 	@Override
 	public List<Cliente> finAll() {
 		// TODO Auto-generated method stub
-		return em.createQuery("from Ciente").getResultList();
+		return em.createQuery("from Cliente	").getResultList();
 	}
 
 }
